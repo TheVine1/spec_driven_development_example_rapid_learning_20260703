@@ -31,7 +31,9 @@
 
 ## Notes
 
-- All items pass. The single clarification needed (wall boundary behavior)
-  was resolved with the user before this checklist was finalized: hitting
-  the board boundary ends the game, the same as a self-collision.
+- All items pass. Clarification session 2026-07-01 resolved 9 decisions:
+  relative turning confirmed; 180° reversal silently discarded; two end
+  conditions (self-collision and wall); fruit respawns in random unoccupied
+  cell; score +1 per fruit; post-round offers only restart/quit; monochrome
+  only; last-key-wins for rapid input; board-full triggers win state.
 - Spec is ready for `/speckit-plan`.

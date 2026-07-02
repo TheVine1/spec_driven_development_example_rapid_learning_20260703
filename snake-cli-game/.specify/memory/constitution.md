@@ -88,7 +88,7 @@ zero-dependency constraint compatible with rigorous, fast automated tests.
 ### V. Performance & Responsiveness
 
 The game loop MUST maintain a consistent, configurable tick rate (default
-suitable for classic Snake, e.g. 8–12 moves/second) with input latency low
+suitable for classic Snake, e.g. 5–12 moves/second) with input latency low
 enough that a keypress is reflected within one tick. The game MUST use
 negligible CPU when idle between ticks (no busy-waiting) and MUST start up
 in under one second on commodity hardware.
